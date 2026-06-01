@@ -293,6 +293,38 @@ const completedTasks =
             ? "☀️ Light"
             : "🌙 Dark"}
         </button>
+
+        <button
+  onClick={() =>
+    navigate("/profile")
+  }
+>
+  👤 Profile
+</button>
+
+<button
+  onClick={() =>
+    navigate("/dashboard")
+  }
+>
+  📊 Dashboard
+</button>
+
+<button
+  onClick={() => {
+    localStorage.removeItem(
+      "token"
+    );
+
+    localStorage.removeItem(
+      "user"
+    );
+
+    navigate("/login");
+  }}
+>
+  🚪 Logout
+</button>
       </div>
 
       <div className="progress-container">

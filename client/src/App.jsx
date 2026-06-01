@@ -9,6 +9,12 @@ from "./pages/ForgotPasswordPage";
 import ResetPasswordPage 
 from "./pages/ResetPasswordPage";
 
+import ProfilePage
+from "./pages/ProfilePage";
+
+import DashboardPage
+from "./pages/DashboardPage";
+
 import TodoPage from "./pages/TodoPage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
@@ -46,6 +52,16 @@ function App() {
 <Route
   path="/reset-password/:token"
   element={<ResetPasswordPage />}
+/>
+
+<Route
+  path="/profile"
+  element={<ProfilePage />}
+/>
+
+<Route
+  path="/dashboard"
+  element={<DashboardPage />}
 />
       </Routes>
     </BrowserRouter>
