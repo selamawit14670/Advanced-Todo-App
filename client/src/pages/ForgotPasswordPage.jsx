@@ -9,7 +9,7 @@ function ForgotPasswordPage() {
 
   try {
     const response = await fetch(
-      "http://localhost:5000/auth/forgot-password",
+      "https://advanced-todo-app-wm53.onrender.com/auth/forgot-password",
       {
         method: "POST",
         headers: {

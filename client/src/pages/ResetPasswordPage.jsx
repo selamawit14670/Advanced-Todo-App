@@ -25,7 +25,7 @@ function ResetPasswordPage() {
 
     const response =
       await fetch(
-        `http://localhost:5000/auth/reset-password/${token}`,
+        `https://advanced-todo-app-wm53.onrender.com/auth/reset-password/${token}`,
         {
           method: "POST",
 

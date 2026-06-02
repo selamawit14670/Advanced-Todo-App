@@ -51,7 +51,7 @@ function TaskItem({ task, tasks, setTasks }) {
 
   try {
     const response = await fetch(
-      `http://localhost:5000/tasks/${task.id}`,
+      `https://advanced-todo-app-wm53.onrender.com/tasks/${task.id}`,
       {
         method: "PUT",
 
@@ -124,7 +124,7 @@ function TaskItem({ task, tasks, setTasks }) {
 
   try {
     const response = await fetch(
-      `http://localhost:5000/tasks/${task.id}`,
+      `https://advanced-todo-app-wm53.onrender.com/tasks/${task.id}`,
       {
         method: "PUT",
 
@@ -178,7 +178,7 @@ function TaskItem({ task, tasks, setTasks }) {
 
   try {
     const response = await fetch(
-      `http://localhost:5000/tasks/${task.id}`,
+      `https://advanced-todo-app-wm53.onrender.com/tasks/${task.id}`,
       {
         method: "PUT",
 
@@ -223,7 +223,7 @@ function TaskItem({ task, tasks, setTasks }) {
   async function deleteTask() {
   try {
     await fetch(
-      `http://localhost:5000/tasks/${task.id}`,
+      `https://advanced-todo-app-wm53.onrender.com/tasks/${task.id}`,
       {
         method: "DELETE",
       }
@@ -249,7 +249,7 @@ function TaskItem({ task, tasks, setTasks }) {
 
   try {
     const response = await fetch(
-      `http://localhost:5000/tasks/${task.id}`,
+      `https://advanced-todo-app-wm53.onrender.com/tasks/${task.id}`,
       {
         method: "PUT",
 
@@ -299,7 +299,7 @@ function TaskItem({ task, tasks, setTasks }) {
 
   try {
     const response = await fetch(
-      `http://localhost:5000/tasks/${task.id}`,
+      `https://advanced-todo-app-wm53.onrender.com/tasks/${task.id}`,
       {
         method: "PUT",
 
@@ -352,7 +352,7 @@ function TaskItem({ task, tasks, setTasks }) {
 
   try {
     const response = await fetch(
-      `http://localhost:5000/tasks/${task.id}`,
+      `https://advanced-todo-app-wm53.onrender.com/tasks/${task.id}`,
       {
         method: "PUT",
 

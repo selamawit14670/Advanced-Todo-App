@@ -33,7 +33,7 @@ function LoginPage() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/auth/login",
+        "https://advanced-todo-app-wm53.onrender.com/auth/login",
         {
           method: "POST",
           headers: {

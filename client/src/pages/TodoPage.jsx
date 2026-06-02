@@ -131,7 +131,7 @@ function TodoPage() {
 
     const response =
       await fetch(
-        "http://localhost:5000/tasks",
+        "https://advanced-todo-app-wm53.onrender.com/tasks",
         {
           headers: {
             Authorization:
@@ -180,7 +180,7 @@ function TodoPage() {
 
 const response =
   await fetch(
-    "http://localhost:5000/tasks",
+    "https://advanced-todo-app-wm53.onrender.com/tasks",
     {
       method: "POST",
 
